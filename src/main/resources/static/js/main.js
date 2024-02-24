@@ -17,6 +17,7 @@ var colors = [
 ];
 
 function connect(event) {
+	// got the input value given in the text field.
     username = document.querySelector('#name').value.trim();
 
     if(username) {
